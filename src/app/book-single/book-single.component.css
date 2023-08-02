@@ -1,0 +1,12 @@
+
+.bold {
+  font-weight: bold;
+}
+.green {
+  color: green;
+}
+.title {
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+}

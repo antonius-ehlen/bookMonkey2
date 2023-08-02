@@ -1,0 +1,19 @@
+<p>book-detail works!</p>
+
+<div *ngIf="book">
+
+  Book is: {{book.isbn}}
+  <span class="title">
+    Title: {{book.title}} <br>
+  </span>
+  SubTi: {{book.subtitle}} <br>
+  Authors:
+  <div *ngFor="let at of book.authors">
+    {{ at }},
+  </div>
+  <span class="bold green">
+    ISBN: {{ book.isbn}}
+  </span>
+  <br>
+
+</div>
